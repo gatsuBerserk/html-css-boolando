@@ -29,7 +29,9 @@
     height: 600px;
 } 
 
-.discount{
+
+.discount{ 
+    text-align: left;
     color: whitesmoke;
     background-color: red ;
     border: 4px solid black;
@@ -38,8 +40,21 @@
     padding: 5px;
 } 
 
-.sostenibilita{
+.sostenibilita{  
+    text-align: left;
     color: whitesmoke;
     background-color: green;
     border: 4px solid black;
+    padding: 5px;
+    bottom: 70px;
+    left: 80px;
+}
+
+.hearts{ 
+    /* border: 2px solid black;  */
+    font-size: 2em;
+    background-color: white;
+    right: 0px;
+    top: 20px;
+    padding: 20px;
 }
