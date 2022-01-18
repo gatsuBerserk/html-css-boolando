@@ -43,6 +43,15 @@
 
 .card:hover .foto-effect{
     display: inline-block;
+} 
+
+.sfondo:hover{
+    background-color: yellowgreen;
+
+} 
+
+.sfondo2:hover{
+    background-color: lightsalmon;
 }
 
 .description{
@@ -78,10 +87,9 @@
 }
 
 .hearts{ 
-    /* border: 2px solid black;  */
     font-size: 2em;
     background-color: white;
-    right: 0px;
+    right: 10px;
     top: 20px;
     padding: 20px;
 }
