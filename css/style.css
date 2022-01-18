@@ -22,13 +22,20 @@
     border: 2px solid black;
     width: 70%;
     margin: 30px auto;
-} 
+}
+
+.center{
+    text-align: center;
+}
 
 .card-size{
     width: 400px;
     height: 600px;
 } 
 
+.description{
+    text-align: left;
+}
 
 .discount{ 
     text-align: left;
@@ -48,6 +55,10 @@
     padding: 5px;
     bottom: 70px;
     left: 80px;
+} 
+
+.bold{
+    font-weight: bolder;
 }
 
 .hearts{ 
@@ -57,4 +68,12 @@
     right: 0px;
     top: 20px;
     padding: 20px;
+}
+
+.color-red{
+    color: red; 
+} 
+
+.original-price{
+    text-decoration: line-through;
 }
