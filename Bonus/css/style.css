@@ -39,20 +39,11 @@
 
 .card:hover .foto{
     display: none;
-}
+} 
 
 .card:hover .foto-effect{
-    display: inline-block;
+    display: inline-block; 
 } 
-
-/* .sfondo:hover{
-    background-color: yellowgreen;
-
-} 
-
-.sfondo2:hover{
-    background-color: lightsalmon;
-} */
 
 .description{
     text-align: left;
