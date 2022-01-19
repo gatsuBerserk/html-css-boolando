@@ -5,99 +5,93 @@
     padding: 0;
 } 
  
-.inline{
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    padding: 10px;    
+    width: calc((100% / 3) - 4px);
+    display:inline-block;
+}
+
+.card-image{
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.card-image img{
+    width: 100%;
+}
+/* 
+.card-image .first-image{
+    display: inline-block;
+} */
+
+.card-image:hover .first-image{
+    display: none;
+} 
+
+.card-image .second-image{
+    display: none;
+}
+
+.card-image:hover .second-image{
     display: inline-block;
 }
 
-.relative{
-    position: relative;
+.card-heart{
+    right: 0;
+    top: 20px;
+    font-size: 2rem;
+    padding: 8px 16px;
+    
+    display: inline-block;
+    background-color: white;
+}
+
+.card-promo{
+    left: 0;
+    bottom: 25px;
+}
+
+.card-promo span{
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: .75rem;
+}
+
+.card-discount{
+    background-color: #eb0037;
+}
+
+.card-tag{
+    background-color: #00875a;
 }
 
 .absolute{
     position: absolute;
 }
 
-
-.size-row{
-    width: 70%;
-    margin: 30px auto;
-}
-
-.center{
-    text-align: center;
-}
-
-.card-size{
-    width: 400px;
-    height: 600px; 
-    padding-right: 20px;
-} 
-
-.foto-effect{
-    display: none;
-}
-
-.card:hover .foto{
-    display: none;
-}
-
-.card:hover .foto-effect{
-    display: inline-block;
-} 
-
-/* .sfondo:hover{
-    background-color: yellowgreen;
-
-} 
-
-.sfondo2:hover{
-    background-color: lightsalmon;
-} */
-
-.description{
+.card-text{
     text-align: left;
 }
 
-.discount{ 
-    left: 0;
-    color: whitesmoke;
-    background-color: red ;
-    bottom: 70px;
-    padding: 5px;
-} 
-
-.sostenibilita1{  
-    color: whitesmoke;
-    background-color: green;
-    padding: 5px;
-    bottom: 70px;
-    left: 60px;
-} 
-
-.sostenibilita2{
-    left: 0;
-    color: white;
-    background-color: green;
-    padding: 5px;
-    bottom: 70px;
+.card-product-name{
+    text-transform: uppercase;
 }
 
-.bold{
-    font-weight: bolder;
+.card-text span, 
+.card-text del {
+    font-size: .86rem;
 }
 
-.hearts{ 
-    font-size: 2em;
-    background-color: white;
-    right: 10px;
-    top: 20px;
-    padding: 20px;
-}
-
-.color-red{
-    color: red; 
-} 
-
-.original-price{
-    text-decoration: line-through;
+.card-price{
+    color: red;
+    font-weight: bold;
 }
